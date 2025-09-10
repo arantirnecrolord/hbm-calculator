@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-10 19:38+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.c:26
+#, c-format
+msgid "1. Bolted Steel Plating\n"
+msgstr ""
+
+#: src/main.c:27
+#, c-format
+msgid "2. Heavy Framework\n"
+msgstr ""
+
+#: src/main.c:28
+#, c-format
+msgid "3. Extensive Circuit Board\n"
+msgstr ""
+
+#: src/main.c:29
+#, c-format
+msgid "4. Radiation Resistant Plating\n"
+msgstr ""
+
+#: src/main.c:30
+#, c-format
+msgid "5. Reinforced Ferrouranium Panels\n"
+msgstr ""
+
+#: src/main.c:31
+#, c-format
+msgid "6. Bronze Structural Elements\n"
+msgstr ""
+
+#: src/main.c:32
+#, c-format
+msgid "7. Mainframe\n"
+msgstr ""
+
+#: src/main.c:34
+#, c-format
+msgid "What should be calculated?: "
+msgstr ""
+
+#: src/main.c:37
+#, c-format
+msgid "Amount?: "
+msgstr ""
+
+#: src/main.c:71
+#, c-format
+msgid "For %i Bolted Steel Plating you need:\n"
+msgstr ""
+
+#: src/main.c:72
+#, c-format
+msgid "Cast Steel Plate: %i (Steel: %i)\n"
+msgstr ""
+
+#: src/main.c:73
+#, c-format
+msgid "Titanium Plate: %i\n"
+msgstr ""
+
+#: src/main.c:74
+#, c-format
+msgid "Steel Bolt: %i (Steel: %i)\n"
+msgstr ""
+
+#: src/main.c:75
+#, c-format
+msgid "Total Steel: %i\n"
+msgstr ""
+
+#: src/main.c:76
+#, c-format
+msgid ""
+"Iron Ore (if one ore = three steel): %i\n"
+"\n"
+msgstr ""
+
+#: src/main.c:81
+#, c-format
+msgid "For %i Heavy Framework you need:\n"
+msgstr ""
+
+#: src/main.c:82 src/main.c:108
+#, c-format
+msgid "Bolted Steel Plating: %i\n"
+msgstr ""
+
+#: src/main.c:83
+#, c-format
+msgid "Polymer/Bakelite: %i\n"
+msgstr ""
+
+#: src/main.c:84
+#, c-format
+msgid "Welded Copper Plate: %i (Copper: %i)\n"
+msgstr ""
+
+#: src/main.c:85
+#, c-format
+msgid "Desh Ingot: %i\n"
+msgstr ""
+
+#: src/main.c:86
+#, c-format
+msgid ""
+"High-Speed Steel Bolt: %i (High-Speed Steel: %i)\n"
+"\n"
+msgstr ""
+
+#: src/main.c:93
+#, c-format
+msgid "For %i Extensive Circuit Board you need:\n"
+msgstr ""
+
+#: src/main.c:94
+#, c-format
+msgid "Integrated Circuit Board: %i\n"
+msgstr ""
+
+#: src/main.c:95 src/main.c:153
+#, c-format
+msgid "Capacitor: %i\n"
+msgstr ""
+
+#: src/main.c:96
+#, c-format
+msgid "Gold Wire: %i (Gold: %i)\n"
+msgstr ""
+
+#: src/main.c:97
+#, c-format
+msgid ""
+"Sulfuric Acid: %imB\n"
+"\n"
+msgstr ""
+
+#: src/main.c:99
+#, c-format
+msgid "For %i Integrated Circuit Board you need:\n"
+msgstr ""
+
+#: src/main.c:100 src/main.c:154
+#, c-format
+msgid "Microchip: %i\n"
+msgstr ""
+
+#: src/main.c:101 src/main.c:161
+#, c-format
+msgid "Printed Circuit Board: %i\n"
+msgstr ""
+
+#: src/main.c:102 src/main.c:164
+#, c-format
+msgid ""
+"Lead Wire: %i (Lead: %i)\n"
+"\n"
+msgstr ""
+
+#: src/main.c:107
+#, c-format
+msgid "For %i Radiation Resistant Plating you need:\n"
+msgstr ""
+
+#: src/main.c:109
+#, c-format
+msgid "Cast Lead Plate: %i (Lead: %i)\n"
+msgstr ""
+
+#: src/main.c:110
+#, c-format
+msgid "Boron Ingot: %i\n"
+msgstr ""
+
+#: src/main.c:111
+#, c-format
+msgid "Tungsten Bolt: %i (Tungsen: %i)\n"
+msgstr ""
+
+#: src/main.c:112
+#, c-format
+msgid ""
+"Engine Lubricant: %imB\n"
+"\n"
+msgstr ""
+
+#: src/main.c:119
+#, c-format
+msgid "For %i Reinforced Ferrouranium Panels you need:\n"
+msgstr ""
+
+#: src/main.c:120
+#, c-format
+msgid "Radiation Resistant Plating: %i\n"
+msgstr ""
+
+#: src/main.c:121
+#, c-format
+msgid "Cast Ferrouranium Plate: %i (Ferrouranium: %i)\n"
+msgstr ""
+
+#: src/main.c:122
+#, c-format
+msgid "Cadmium/Technetium Steel Ingot: %i\n"
+msgstr ""
+
+#: src/main.c:123 src/main.c:175
+#, c-format
+msgid ""
+"Unsaturated Hydrocarbons: %imB\n"
+"\n"
+msgstr ""
+
+#: src/main.c:130
+#, c-format
+msgid "For %i Bronze Structural Elements you need:\n"
+msgstr ""
+
+#: src/main.c:131
+#, c-format
+msgid "Heavy Framework: %i\n"
+msgstr ""
+
+#: src/main.c:132
+#, c-format
+msgid "Reinforced Ferrouranium Panels: %i\n"
+msgstr ""
+
+#: src/main.c:133
+#, c-format
+msgid "Cast Bismuth/Arsenic Bronze Plate: %i (Bronze: %i)\n"
+msgstr ""
+
+#: src/main.c:134
+#, c-format
+msgid "Welded Zirconium Plate: %i (Zirconium: %i)\n"
+msgstr ""
+
+#: src/main.c:135
+#, c-format
+msgid ""
+"Cold Perfluoromethyl: %imB\n"
+"\n"
+msgstr ""
+
+#: src/main.c:144
+#, c-format
+msgid "For %i Mainframe you need:\n"
+msgstr ""
+
+#: src/main.c:145
+#, c-format
+msgid "Extensive Circuit Board: %i\n"
+msgstr ""
+
+#: src/main.c:146
+#, c-format
+msgid "Control Unit: %i\n"
+msgstr ""
+
+#: src/main.c:147
+#, c-format
+msgid "Capacitor Board: %i\n"
+msgstr ""
+
+#: src/main.c:148
+#, c-format
+msgid "Quartz Glass: %i\n"
+msgstr ""
+
+#: src/main.c:149 src/main.c:158
+#, c-format
+msgid ""
+"Perfluoromethyl: %imB\n"
+"\n"
+msgstr ""
+
+#: src/main.c:151
+#, c-format
+msgid "For %i Control Unit you need:\n"
+msgstr ""
+
+#: src/main.c:152 src/main.c:162
+#, c-format
+msgid "Tantalium Capacitor: %i\n"
+msgstr ""
+
+#: src/main.c:155
+#, c-format
+msgid "Lead Wire: %i (Lead: %i)\n"
+msgstr ""
+
+#: src/main.c:156
+#, c-format
+msgid "Speed Upgrade Mk.I: %i\n"
+msgstr ""
+
+#: src/main.c:157
+#, c-format
+msgid "Control Unit Casing: %i\n"
+msgstr ""
+
+#: src/main.c:160
+#, c-format
+msgid "For %i Capacitor Board you need:\n"
+msgstr ""
+
+#: src/main.c:163
+#, c-format
+msgid "Hydrogen Peroxide: %imB\n"
+msgstr ""
+
+#: src/main.c:172
+#, c-format
+msgid "For %imB Perfluoromethyl you need:\n"
+msgstr ""
+
+#: src/main.c:173
+#, c-format
+msgid "Fluorite: %i\n"
+msgstr ""
+
+#: src/main.c:174
+#, c-format
+msgid "Petroleum Gas: %imB\n"
+msgstr ""
