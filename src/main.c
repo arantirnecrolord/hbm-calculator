@@ -17,7 +17,7 @@ int bronze_structural_elements(int i);
 int mainframe(int i);
 int perfluoromethyl(int i);
 
-int main() {
+int main(void) {
     setlocale(LC_ALL, "");
     textdomain("hbm-calculator");
     bindtextdomain("hbm-calculator", "./locale");
