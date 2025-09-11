@@ -1,55 +1,42 @@
-# Prerequisites
-*.d
+#
+# To clean up the repo, run `git clean -Xdf`
+# NOTE: This is destructive and will wipe anything besides the source tree!
+#
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Ignore everything in the root directory, whitelist stuff later
+/*/
+/*
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Ignore Kate editor temp files
+*.kate-swp
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore local patches
+*.patch
+*.rej
+*.orig
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Ignore clang-analyzer output
+*.plist
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Explicitly track source directories
+!/include
+!/src
+!/po
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Explicitly track build system
+!/Makefile
+!/project.mk
+!/CMakeLists.txt
+!/Doxyfile
+!/default.nix
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Explicitly track CI infrastructure
+!/.github
+!/.gitlab-ci.yml
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Explicitly track repository metadata
+!/README*
+!/LICENSE*
+!/.mailmap
+!/.gitignore
+!/.clang-format
