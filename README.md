@@ -17,6 +17,7 @@ Arch
 sudo pacman -S gcc gettext
 ```
 if you are using some other distribution, figure it out yourself
+
 2. Download the source code
 ```bash
 git clone https://github.com/arantirnecrolord/hbm-calculator.git
