@@ -1,9 +1,22 @@
 #include <stdio.h>
 #include <locale.h>
-#include <libintl.h>
-#include <stdlib.h>
 
+#undef CHECK_INCLUDE
+#if defined(__GNUC__) && defined(__has_include)
+#define CHECK_INCLUDE(include, urgent) __has_include(#include)
+#else
+#define CHECK_INCLUDE(include, urgent) (urgent)
+#endif
+
+#if CHECK_INCLUDE(libintl.h, 1) && CHECK_INCLUDE(locale.h, 1)
+/* Enable locale support */
+#include <libintl.h>
 #define _(STRING) gettext(STRING)
+#define INTL_GETTEXT_IMPL 1
+#else
+/* Shim locale support if locale isn't supported */
+#define _(STRING) (STRING)
+#endif
 
 int select_component = 0;
 int amount_component = 0;
@@ -17,10 +30,13 @@ int bronze_structural_elements(int i);
 int mainframe(int i);
 int perfluoromethyl(int i);
 
-int main() {
+int main(void) {
     setlocale(LC_ALL, "");
+
+#if defined(INTL_GETTEXT_IMPL)
     textdomain("hbm-calculator");
     bindtextdomain("hbm-calculator", "./locale");
+#endif
 
     printf(_("1. Bolted Steel Plating\n"));
     printf(_("2. Heavy Framework\n"));
