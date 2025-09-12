@@ -15,9 +15,8 @@ sudo dnf install gcc gettext
 
 Arch
 sudo pacman -S gcc gettext
-
-if you are using some other distribution, figure it out yourself
 ```
+if you are using some other distribution, figure it out yourself
 2. Download the source code
 ```bash
 git clone https://github.com/arantirnecrolord/hbm-calculator.git
@@ -26,20 +25,24 @@ git clone https://github.com/arantirnecrolord/hbm-calculator.git
 ```bash
 cd hbm-calculator
 ```
-4. Build
+4. Make the file executable
+```bash
+chmod +x build.sh
+```
+5. Build
 ```bash
 ./build.sh
 ```
-5. Run
+6. Run
 ```bash
 ./result/bin/hbm-calculator
 ```
 ## Building for NixOS
-4. Build
+5. Build
 ```bash
 nix-build
 ```
-5. Run
+6. Run
 ```bash
 ./result/bin/hbm-calculator
 ```
